@@ -4,7 +4,9 @@ title: All about me
 subtitle: Why you'd want to go on a date with me
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+My name is Phil Bossman.  I am a PowerShell enthusiest.  I enjoy technology and learning.
+
+I've been working in the IT industry for over 25 years.  I've worked with small companies, then moving to managing all IT operations for a Pk-8 private school.   I transitioned to Healthcare IT, where I spent 10 years learnign the ropes of .  I spenI stated . I have the following qualities:
 
 - I rock a great mustache
 - I'm extremely loyal to my family
