@@ -4,7 +4,7 @@ title: Getting PVS Maintenance Servers
 subtitle: Find Maintenace PVS that not
 ---
 
-If you work with Citrix PVs, you will know about the different types of images.
+When you work with Citrix PVs, you know about the different types of images.
 
     Production
     Test
@@ -17,3 +17,5 @@ Our implementation fo PVS uses a dedicated machine for our Maintenance manchine.
 ``` posh
 
 ![Crepe](\img\PVSTypes.jpg)
+
+??? WHATS DO I Kwnat to say
