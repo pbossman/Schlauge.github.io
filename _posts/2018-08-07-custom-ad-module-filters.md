@@ -6,6 +6,10 @@ One of my favoraite things about powershell is it's flexability.  Poiwershell ca
 
 In this post we'll dicuss the Get-ADUser cmdlet from the Active Directory module.  This cmdlet is allows you to get one or more user objects.
 
+``` posh
+    Set-Location 'src'
+```
+
 Gets one or more Active Directory users.
 
    The Get-ADUser cmdlet takes a  Now you may think, "Whats wrong with Get-ADUser?"  
