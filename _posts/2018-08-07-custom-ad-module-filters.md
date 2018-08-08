@@ -32,7 +32,7 @@ So lets look at how can can solve both of these scenarios.
 
 Lets start by defining an advanced function
 
-```
+``` posh {.line-numbers}
 Function Get-MyADUser {}
     [CmdletBinding()]
     Param
