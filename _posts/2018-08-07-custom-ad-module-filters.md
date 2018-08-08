@@ -18,25 +18,31 @@ Based on the Help, .... You are using Get-Help, aren't you!!
 It says that Get-ADUser can be used in three ways. 
 You can get a single AD User by identity   
 ``` posh
-    Get-ADUser -Identity 
-````
+    Get-ADUser -Identity {GUID}
+```
 You can also search for a single or multiple users based on filters;
 You can filter using the PowerShell Expression language
 ``` posh
-    Get-ADUser -Filter
+    Get-ADUser -Filter "Enabled=True"
 ```
 You can filter using a LDAPquery string
 ``` posh
-    Get-ADUser -LDAPFilter
+    Get-ADUser -LDAPFilter '{SurName = "K*"}'
 ```
 
-Now these methods are great but they are not wht way my brain works.  I want to say... Get me Peter Smith's AD account. or more likely... I want John's account...John who?... You know John M....Oh HIM!!!
+Now these methods are great but they are not the way my brain works.  I want to say...
+    Get me Peter Smith's AD account. 
+or more likely... 
+    I want John's account...
+        John who?... 
+            You know John M....
+                OH HIM!!!
 
 So lets look at how can can solve both of these scenarios.
 
 Lets start by defining an advanced function
 
-``` posh {.line-numbers}
+``` posh
 
     Function Get-MyADUser {}
         [CmdletBinding()]
@@ -126,7 +132,7 @@ Lets start by defining an advanced function
     }
 ```
 
-``` 
+```
 Get-myADUser -FirstName 
 
 Get-MyADUser [[-LastName] <string>] [-FirstName <string>] [-properties <string[]>] [-Server <string>] [-Groups] [<CommonParameters>]
