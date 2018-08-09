@@ -1,16 +1,16 @@
 ---
 layout: post
 title: Getting PVS Maintenance Servers
-subtitle: Find Maintenace PVS that not
+subtitle: Find Maintenance PVS that not
 ---
 
 When you work with Citrix PVs, you know about the different types of images.
 
     Production
     Test
-    Maintenace
+    Maintenance
 
-Our implementation fo PVS uses a dedicated machine for our Maintenance manchine.  We designate these machinesMM to distiguish a Maintenance machine.  Sometimes this MM machine is booted prior to setting up the new version of Maintenance.  When this happens the disk will boot Read-only.  If you dont knowtic this
+Our implementation fo PVS uses a dedicated machine for our Maintenance machine.  We designate these machinesMM to distinguish a Maintenance machine.  Sometimes this MM machine is booted prior to setting up the new version of Maintenance.  When this happens the disk will boot Read-only.  If you dont know this
 
 ``` posh
     Get-Item
@@ -18,4 +18,4 @@ Our implementation fo PVS uses a dedicated machine for our Maintenance manchine.
 
 ![Crepe](\img\PVSTypes.jpg)
 
-??? WHATS DO I Kwnat to say
+??? WHATS DO I what to say

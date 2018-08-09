@@ -2,9 +2,9 @@
 title:  Custom ActiveDirectory Filters
 ---
 
-One of my favoraite things about powershell is it's flexability.  Poiwershell can let you do so much.  The Pipeline is Awesome ( but thats another rant\post).  The focus of this post wil be about creating wrapper functions to extend the functionality of existing Cmdlets.  By defining your own function and following a few standard pratcices you can make your very own cmdlet, and make it look and operate like a compiled cmdlet
+One of my favorite things about powershell is it's flexibility.  Powershell can let you do so much.  The Pipeline is Awesome ( but thats another rant\post).  The focus of this post wil be about creating wrapper functions to extend the functionality of existing Cmdlets.  By defining your own function and following a few standard practices you can make your very own cmdlet, and make it look and operate like a compiled cmdlet
 
-In this post we'll dicuss the Get-ADUser cmdlet from the Active Directory module.  This cmdlet is allows you to get one or more user objects.
+In this post we'll discuss the Get-ADUser cmdlet from the Active Directory module.  This cmdlet is allows you to get one or more user objects.
 
 ``` posh
     Set-Location 'src'
@@ -17,15 +17,20 @@ Gets one or more Active Directory users.
 Based on the Help, .... You are using Get-Help, aren't you!! 
 It says that Get-ADUser can be used in three ways. 
 You can get a single AD User by identity   
+
 ``` posh
     Get-ADUser -Identity {GUID}
 ```
+
 You can also search for a single or multiple users based on filters;
 You can filter using the PowerShell Expression language
+
 ``` posh
     Get-ADUser -Filter "Enabled=True"
 ```
+
 You can filter using a LDAPquery string
+
 ``` posh
     Get-ADUser -LDAPFilter '{SurName = "K*"}'
 ```
