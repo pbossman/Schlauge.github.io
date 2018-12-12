@@ -1,3 +1,9 @@
+---
+layout: post
+title: Getting PVS Maintenance Servers
+subtitle: Find Maintenance PVS that not
+---
+
 When working with citrix.PVS.Snapin 
 
 ##Register Citrix.PVS.SnapIn on PVS Server
