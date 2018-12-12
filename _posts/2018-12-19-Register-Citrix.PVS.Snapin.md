@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Getting PVS Maintenance Servers
-subtitle: Find Maintenance PVS that not
+title: Citrix.PVS.Snapin won't load
+subtitle: strong type error
 ---
 
 When working with citrix.PVS.Snapin 
