@@ -1,7 +1,8 @@
 ---
 layout: post
-title: Getting PVS Maintenance Servers
-subtitle: Find Maintenance PVS that not
+title: Getting PVS incorrect Maintenance servers
+subtitle: Find Maintenance PVS that not are not in mainteneance mode 
+published: false
 ---
 
 When you work with Citrix PVs, you know about the different types of images.
