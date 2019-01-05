@@ -27,9 +27,9 @@ Add-PSSnapin -Name "Citrix.*"
 
 So, the question is... How do we register the Snapin so that we can use the short hand.
 
-##### Register Citrix.PVS.SnapIn on PVS Server
+#### Register Citrix.PVS.SnapIn with full path
 
-```
+``` posh
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe 'C:\Program Files\Citrix\Provisioning Services Console\Citrix.PVS.SnapIn.dll'
 ```
 
@@ -58,13 +58,13 @@ Well, it seems that the registration includes version information, so when the v
 
 Unregister the DLL (old version), and re-register the DLL (new version).
 
-### Un-Register Citrix.PVS.SnapIn
+#### Un-Register Citrix.PVS.SnapIn
 
 ``` posh
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe /u 'C:\Program Files\Citrix\Provisioning Services Console\Citrix.PVS.SnapIn.dll'
 ```
 
-### Register Citrix.PVS.SnapIn
+#### Register Citrix.PVS.SnapIn
 
 ``` posh
 C:\Windows\Microsoft.NET\Framework64\v4.0.30319\InstallUtil.exe 'C:\Program Files\Citrix\Provisioning Services Console\Citrix.PVS.SnapIn.dll'
