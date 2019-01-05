@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Can't Add-PSSnapin Citrix.PVS.Snapin
-subtitle: strong type error
+title: Add-PSSnapin Citrix.PVS.Snapin fails
+subtitle: ...required Windows PowerShell snap-in strong name...
 published: true
 ---
 
